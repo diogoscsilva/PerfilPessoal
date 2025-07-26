@@ -1,0 +1,32 @@
+ .white {
+    background-color: #bf997d;
+  }
+  .black {
+    background-color: #502d16;
+  }
+  .pawn {
+        mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078;" d="m 4.363,4.595 c 0.032,-1.299 1.343,-1.340 1.370,0 z" id="path5" /> <rect style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" id="rect1"  width="2.222" height="1.036" x="3.939" y="7.368" /> <path id="rect2" style="fill:currentcolor;stroke:%23666666;stroke-width:0.077" d="m 4.349,4.677 1.400,-0.001 0.398,2.611 H 3.946 Z" /> </svg>'); 
+    }
+
+    .knight {
+        mask: url('data:image/svg+xml, <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"> <path style="fill:%23e3dbdb;stroke:%23666666;stroke-width:0.078" d="M 5.597,7.208 C 5.496,6.298 5.689,4.993 5.723,4.701 5.763,4.344 5.850,4.299 5.233,3.563 5.542,3.576 6.009,3.557 6.350,3.684 L 6.673,3.411 4.882,2.249 C 4.766,2.236 4.767,2.203 4.603,2.229 4.521,2.243 4.604,1.665 4.533,1.688 4.461,1.710 4.258,2.209 4.212,2.242 3.761,2.550 3.545,2.766 3.434,3.633 3.266,4.947 3.627,6.159 3.646,7.212 l -0.213,1.230 2.434,0.002 z" /> <path style="fill:%23e3dbdb;stroke:%23666666;stroke-width:0.078" d="m 3.654,7.204 1.929, 0.004" /> <circle style="fill:%23e3dbdb;stroke:%23666666;stroke-width:0.078" cy="2.533" cx="4.875" r="0.045" /> </svg>')
+    }
+
+    .king {
+        mask: url('data:image/svg+xml, <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"> <path  style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="M 6.237,8.440 5.968,6.626 6.075,2.440 l -2.033,-0.003 0.077,4.248 -0.259,1.762 2.377,-0.007" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="M 4.102,6.667 5.956,6.668" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="m 4.025,1.930 0.123,0.001 0.185,0.339 h -0.313 z" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="m 4.888,0.908 0.323,-0.001 -0.0001,0.334 0.386,-0.008 -0.001,0.330 -0.384,0.001 -0.0031,0.695815 L 4.89192,2.267293 4.88752,1.575134 4.525845,1.569434 4.523545,1.242 4.890,1.243 Z" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="m 4.576,2.050 0.091,-0.001 0.050,0.218 H 4.516 Z" /> <path style="fill:currentcolor; stroke:%23666666;stroke-width:0.078" d="m 5.524,2.047 -0.091,-0.001 -0.050, 0.218 H 5.584 Z" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="M 6.084,1.931 5.960,1.932 5.775,2.272 h 0.313 z" /> </svg>')
+    }
+
+
+    .bishop {
+        mask: url('data:image/svg+xml, <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="M 4.398,2.950 C 4.406,2.509 4.454,2.196 4.577,1.971 4.608,1.915 5.096,2.365 5.131,2.322 5.166,2.280 4.772,1.726 4.810,1.698 5.139,1.449 5.672,1.713 5.690,2.947 l -0.642,0.003 z" /> <circle style="fill:%23e3dbdb;stroke:%23666666;stroke-width:0.078" cx="5.044" cy="1.416" r="0.130" /> <rect style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" width="2.190" height="1.545" x="3.949" y="6.803" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="m 4.381,3.039 1.333,-0.001 0.425,3.680 H 3.949 Z" /> </svg>')
+    }
+
+
+    .queen {
+        mask: url('data:image/svg+xml, <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"> <path style="fill:currentcolor;stroke: %23666666;stroke-width:0.078" d="M 6.237,8.365 5.968,6.550 6.0752,2.365 l -2.033,-0.003 0.077,4.248 -0.259,1.762 2.377,-0.007" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="M 4.102,6.591 5.956,6.592" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="m 4.034,1.710 0.126,0.004 0.173,0.481 h -0.313 z" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="m 4.686,1.709 0.135, 0.006 0.093,0.485 h -0.313 z" />  <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078;" d="m 5.280,1.707 0.135,0.006 0.093,0.485 h -0.313 z" /> <path style="fill:currentcolor;stroke:%23666666;stroke-width:0.078;" d="m 6.065,1.709 -0.126,0.004 -0.173,0.481 h 0.313 z" /> </svg>')
+    }
+
+    
+    .rook {
+        mask: url('data:image/svg+xml, <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <rect style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" id="rect1" width="0.340"  height="0.424" x="3.805" y="3.433" /> <use xlink:href="%23rect1" transform="translate(0.72, 0)"/> <use xlink:href="%23rect1" transform="translate(1.44, 0)"/> <use xlink:href="%23rect1" transform="translate(2.16, 0)"/> <path  style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="m 3.861,7.103 2.324,-0.003 0.325,1.277 H 3.577 Z" /> <path  id="path4" style="fill:currentcolor;stroke:%23666666;stroke-width:0.078" d="m 6.182,7.021 -2.316,0.002 -0.105,-3.052 2.566,-0.012 z" /> </svg>')
+    }

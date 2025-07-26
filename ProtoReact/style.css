@@ -1,0 +1,79 @@
+.font-mono {font-family: "Courier New", Menlo, Monaco, Consolas, "Liberation Mono", monospace;}
+  .font-sans {font-family: roboto ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+  .text-white	{color: rgb(255 255 255);}
+  .float-right {float: right;}
+  .float-left {float: left;}
+  .clear-both {clear: both;}
+  .block {display: block;}
+  .none {display: none;}
+  .flex-row	{display: flex; flex-direction: row;}
+  .flex-col	{display: flex; flex-direction: column; height: 100%}
+  .gap-y-2_5 {row-gap: 0.625rem;}
+  .self-start	{align-self: flex-start;}
+  .self-end	{align-self: flex-end;}
+  .items-center {align-items: center;}
+  .justify-center {justify-content: center;}
+  .relative	{position: relative;}
+  .absolute	{position: absolute;}
+  .fixed	{position: fixed;}
+  .sticky {position: sticky}
+  .inset-0 {top: 0; right: 0; bottom: 0; left: 0;}
+  .overflow-auto {overflow: auto;}
+  .overflow-hidden	{overflow: hidden;}
+  .overflow-x-auto	{overflow-x: auto;}
+  .snap-x	{
+    scroll-snap-type: x var(--tw-scroll-snap-strictness);
+    --tw-scroll-snap-strictness: mandatory;
+  }
+  .snap-center > * {scroll-snap-align: center;}
+  .scrollbar-invisible {--tw-scrollbar-width: none;}
+  .scrollbar-invisible::-webkit-scrollbar {display: none;}
+  .scroll-smooth	{scroll-behavior: smooth;}
+  .cursor-default {cursor: default;}
+  .z-10 {z-index: 10;}
+  .w-full	{width: 100%;}
+  .w-half	{width: 50%;}
+  .w-48 {width: 12rem;}
+  .w-32 {width: 8rem;}
+  .min-w-full	{min-width: 100%;}
+  .min-w-half	{min-width: 50%;}
+  .max-w-full	{max-width: 100%;}
+  .max-w-half	{max-width: 50%;}
+  .h-50 {height: 12.5rem;}
+  .rounded-xl {border-radius: 0.75rem;}
+  .rounded-r-lg	{
+    border-top-right-radius: 0.5rem; /* 8px */
+    border-bottom-right-radius: 0.5rem; /* 8px */
+  }
+  .rounded-l-lg	{
+    border-top-left-radius: 0.5rem; /* 8px */
+    border-bottom-left-radius: 0.5rem; /* 8px */
+  }
+  .rounded-r	{
+    border-top-right-radius: 0.25rem; /* 4px */
+    border-bottom-right-radius: 0.25rem; /* 4px */
+  }
+  .rounded-l	{
+    border-top-left-radius: 0.25rem; /* 4px */
+    border-bottom-left-radius: 0.25rem; /* 4px */
+  }
+  .border-0	 {border-width: 0px;}
+  .m-1 {margin: 0.25rem;}
+  .m-t1 {margin-top: 0.25rem;}
+  .p-1{padding: 0.25rem;}
+  .px-1	{
+    padding-left: 0.25rem; /* 4px */
+    padding-right: 0.25rem; /* 4px */
+  }
+  .text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .text-xs	{
+    font-size: 0.75rem; /* 12px */
+    line-height: 1rem; /* 16px */
+  }
+  .text-center	{text-align: center;}
+  .text-right	{text-align: right;}
+  .w-5by6 {width: 83.333334%;}
+  .w-11by12 {width: 91.666667%;}

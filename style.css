@@ -1,0 +1,180 @@
+body {
+  display: grid;
+  grid-template-areas:
+  "header header header header"
+  "aside main main main"
+  "footer footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr  1fr;
+  font-family: roboto, sans-serif;
+}
+
+
+h1, h2, h3 {
+  font-family: "Time New Roman", Times, serif;
+  margin: 0.3rem 2rem;
+}
+
+header {
+  color: snow;
+  border-bottom: solid 0.5vh lightgray;
+  grid-area: header;
+  background-color: cornflowerblue;
+  align-self: start;
+  min-height: 10vh;
+}
+
+header > h1::before {
+  content: "";
+  display: block;
+  float: left;
+  background-image: url('./assets/rosto.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10vw;
+  width: 10vw;
+  mask: url('data:image/svg+xml,<svg viewBox="0 0 60 60" xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns="http://www.w3.org/2000/svg" > <circle style="fill:currentcolor;stroke:none;stroke-width:0.10" cx="28" cy="31"  r="24.23" /> </svg>');
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 0.5vw 1vw 0.5vw 0.5vw;
+  background-color: white;
+  color: cornflowerblue;
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+nav a:hover {
+  background-color: #e0e0e0;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  padding: 0 3vw 3vw 3vw;
+  color: slateblue;
+  grid-area: main;
+  min-height: 70vh;
+}
+aside {
+  margin-top: 6vw;
+  border-right: solid 1px lightgray;
+  grid-area: aside;
+  align-self: start;
+  min-height: 60vh;
+  position: sticky;
+  top: 0.5vh;
+  left: 0;
+}
+
+footer {
+  border-top: solid 0.5vh lightgray;
+  grid-area: footer;
+  background-color: mediumpurple;
+  color: snow;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+main section {
+  padding: 3vw;
+  border-bottom: solid 1px currentcolor;
+}
+
+#hamburger, header > label {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  
+  #hamburger {
+    visibility: hidden;
+  }
+
+  .galery {
+    font-size: 0.7rem;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(3, minmax(90px, 21vw));
+  }
+
+  .card {
+    min-height: 154px;
+  }
+  header nav a {
+    display: none;
+  }
+
+  #hamburger + label {
+    position: absolute;
+    left: 6px;
+    top: 53px;
+    visibility: visible;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border: solid 8px transparent;
+    border-bottom: solid 12px currentcolor; 
+    z-index: 3;
+  }
+
+  #hamburger + label + nav::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 58px;
+    z-index: 2;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border: solid 2px currentcolor;
+    border-radius: 50%;
+  }
+
+  #hamburger:checked + label {
+    top: 65px;
+    border: solid 8px transparent;
+    border-top: solid 12px currentcolor;
+  }
+
+  #hamburger:checked ~ nav a {
+    display: inline-block;
+  }
+
+  main {
+    min-height: 460px;
+  }
+}
+
+@media (max-width: 390px) {
+  body {
+    grid-template-areas:
+    "header"
+    "aside"
+    "main"
+    "footer";
+    grid-template-rows: 10vh 1fr 2fr 15vh;
+    grid-template-columns: 1fr;
+    min-width: 230px;
+  }
+  main {
+    min-height: 460px;
+  }
+  aside {
+    min-height: 280px;
+    align-self: none;
+    position: static;
+    border: none;
+  }
+}

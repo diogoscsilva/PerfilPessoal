@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chrset="UTF-8" lang="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ProtoReact/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Chess/style.css">
+    <link rel="stylesheet" href="./Chess/pieces.css">
+    <title>Minha página de perfil e portifólio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Perfil Profissional</h1>
+      <h2>Diogo Santoro Costa da Silva</h2>
+      <input id="hamburger" type="checkbox"/>
+      <label for="hamburger"></label>
+      <nav>
+        <a href="#sobre-mim">Sobre mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+      </nav>
+    </header>
+    <aside>
+      <ul>
+        <li>
+          <a href="https://github.com/diogoscsilva/PerfilPessoal" target="_blank" rel="noopener noreferer">Meu git hub com as seguintes bibliotecas</a>
+        </li>
+        <li>
+            Util - com funcionalidade práticas para JS
+            </li>
+            <li>
+
+              Proto - com classe e interfaces por protipação
+            </li>
+            <li>
+
+              SuportTypes - com expansão para tipos genéricos
+            </li>
+            <li>
+              DataTypes - estruturas imutáveis com Record, Tuple e Enum com classes
+
+            </li>
+            <li>
+              Lib tipo react usando prototipação
+            </li>
+            <li>
+              PUnit - suite de testes
+            </li>
+
+        </li>
+      </ul>
+    </aside>
+    <main>
+		  <section id="sobre-mim.">
+        <h2>Sobre mim</h2>
+        <p>
+          Tive meu primeiro contato com computação no ano 2000, quando cursei um semestre de ciência da computação na UFLA. Apos anos de formação e atuação na área da saúde resolvi retomar minha jornada no desenvolvimento de software. Busco aprimorar minhas habilidades de resolução de problemas, com interesse na formação em técnicas de modelagem de domínios. O que me motiva são os desafios para encontrar as soluções e a paixão pela oportunidade de aquisição de novos conhecimento.  
+        </p>
+      </section>
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+          Sou curioso em saber como as coisas funcionam, gosto de tentar imaginar como uma aplicação foi implementada e tentar fazer uma versão própria como forma de aprendizado. Sou bem resiliente, motivado por desafios e não tenho dificuldade de trabalhar com outras pessoas. Reconheço que apesar dos benefícios para meu desenvolvimento pessoal, o foco em criações próprias me afastam da familiaridade com ferramentas do mercado que conferem agilidade no desenvolvimento de soluções de problemas. No momento estou buscando uma formação mais sólida no programa de Desenvolvedor Full Stack Júnior da +PraTi.  
+        <p>
+        </p>
+      </section>
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <p>
+          Programo em JavaScript, reiniciei minha jornada utilizando a plataforma da Google App Script que faz parte das ferramentas gratuitas de google workspace. As limitações da ferramenta me levaram a produzir algumas bibliotecas simples, de uso funcional direto no código.
+        </p>
+      </section>
+      <article id="root">
+
+      </article>
+    </main>
+    <footer>
+      <p>
+        Copyright: Diogo Santoro Costa da Silva
+      </p>
+    </footer>
+  </body>
+  <script src="./libs/Util.js"></script>
+  <script src="./libs/ProtoLib.js"></script>
+  <script src="./libs/SuportTypes.js"></script>
+  <script src="./libs/DataTypes.js"></script>
+  <script src="./ProtoReact/ProtoReactLib.js"></script>
+  <script src="./ProtoReact/BasicComponents.js"></script>
+  <script src="./Chess/ChessPieces.js"></script>
+  <script src="./Chess/ChessPlay.js"></script>
+  <script src="./Chess/ChessGame.js"></script>
+  <script src="./Chess/ChessComponent.js"></script>
+  <script src="./Calc/calc.js"></script>
+  <script src="./Calc/calcComponent.js"></script>
+  <script src="app.js"></script>
+</html>
