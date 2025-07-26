@@ -97,6 +97,13 @@ main section {
   display: none;
 }
 
+aside.link-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3vw 3vw 3vw;
+  color: slateblue;
+}
+
 @media (max-width: 600px) {
   
   #hamburger {
